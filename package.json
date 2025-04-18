@@ -8,7 +8,7 @@
     "shared/*"
   ],
   "scripts": {
-    "start:set": "cd apps/set-timeline-creator && npm start",
+    "start:set": "cd apps/set-timeline-creator && cross-env SKIP_PREFLIGHT_CHECK=true npm start",
     "build": "npm run build --workspaces",
     "test": "npm run test --workspaces",
     "lint": "npm run lint --workspaces"
@@ -31,6 +31,7 @@
   "homepage": "https://github.com/htmaaa/monday-apps#readme",
   "devDependencies": {
     "prettier": "^3.0.0",
-    "eslint": "^8.45.0"
+    "eslint": "^8.45.0",
+    "cross-env": "^7.0.3"
   }
 } 

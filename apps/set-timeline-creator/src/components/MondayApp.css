@@ -1,0 +1,254 @@
+.monday-app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f6f8;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.monday-app h2 {
+  color: #0085ff;
+  margin-bottom: 5px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.app-subtitle {
+  text-align: center;
+  color: #666;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+.monday-app h3 {
+  color: #333;
+  margin: 20px 0 15px;
+  font-size: 18px;
+}
+
+.board-selector {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.board-selector label {
+  margin-right: 10px;
+  font-weight: 500;
+}
+
+.board-selector select {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dce0e3;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+}
+
+.manual-board-input {
+  margin-bottom: 20px;
+}
+
+.manual-board-input form {
+  display: flex;
+}
+
+.manual-board-input input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #dce0e3;
+  border-radius: 4px 0 0 4px;
+  font-size: 14px;
+}
+
+.manual-board-input button {
+  padding: 10px 15px;
+  background-color: #666;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+  font-size: 14px;
+  white-space: nowrap;
+}
+
+.manual-board-input button:hover {
+  background-color: #444;
+}
+
+.error-message {
+  background-color: #ffebee;
+  color: #d32f2f;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px auto;
+  max-width: 80%;
+  text-align: left;
+  border: 1px solid #ef9a9a;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.success-message {
+  background-color: #e8f5e9;
+  color: #2e7d32;
+  padding: 15px;
+  border-radius: 4px;
+  margin: 20px auto;
+  max-width: 80%;
+  text-align: left;
+  border: 1px solid #a5d6a7;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.loading {
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  color: #666;
+}
+
+.timeline-creator {
+  background-color: white;
+  padding: 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.timeline-options {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.radio-group label {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.radio-group input {
+  margin-right: 10px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 10px;
+}
+
+.form-group label {
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.form-group input,
+.form-group select {
+  padding: 10px;
+  border: 1px solid #dce0e3;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.date-inputs,
+.date-column-selectors {
+  display: flex;
+  gap: 15px;
+}
+
+.date-inputs .form-group,
+.date-column-selectors .form-group {
+  flex: 1;
+}
+
+.date-source-selector {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 4px;
+  border: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.create-timeline-button {
+  padding: 12px 20px;
+  background-color: #00ca72;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  transition: background-color 0.2s;
+}
+
+.create-timeline-button:hover {
+  background-color: #00b368;
+}
+
+.create-timeline-button:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.creator-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.creator-header h3 {
+  margin: 0;
+}
+
+.create-test-item-button {
+  background-color: #0085ff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.create-test-item-button:hover {
+  background-color: #0071d9;
+}
+
+.header-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.refresh-button {
+  background-color: #6e6e6e;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 12px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.refresh-button:hover {
+  background-color: #555555;
+} 
