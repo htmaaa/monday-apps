@@ -1,0 +1,36 @@
+{
+  "name": "monday-apps",
+  "version": "1.0.0",
+  "description": "A collection of apps and utilities for Monday.com",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "shared/*"
+  ],
+  "scripts": {
+    "start:set": "cd apps/set-timeline-creator && npm start",
+    "build": "npm run build --workspaces",
+    "test": "npm run test --workspaces",
+    "lint": "npm run lint --workspaces"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/htmaaa/monday-apps.git"
+  },
+  "keywords": [
+    "monday",
+    "monday.com",
+    "timeline",
+    "project-management"
+  ],
+  "author": "Haitham Arshid",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/htmaaa/monday-apps/issues"
+  },
+  "homepage": "https://github.com/htmaaa/monday-apps#readme",
+  "devDependencies": {
+    "prettier": "^3.0.0",
+    "eslint": "^8.45.0"
+  }
+} 

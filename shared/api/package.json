@@ -1,0 +1,20 @@
+{
+  "name": "@monday-apps/api",
+  "version": "1.0.0",
+  "description": "Shared API utilities for Monday.com apps",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src --ext .ts"
+  },
+  "dependencies": {
+    "axios": "^1.4.0",
+    "monday-sdk-js": "^0.1.5"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.0",
+    "typescript": "^5.0.0"
+  }
+} 
